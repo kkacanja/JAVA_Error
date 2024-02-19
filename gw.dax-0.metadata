@@ -1,0 +1,15 @@
+{
+  "root_workflow_uuid": "1a2ba953-26fe-43a8-9e7b-a5b23794529b",
+  "workflow_uuid": "1a2ba953-26fe-43a8-9e7b-a5b23794529b",
+  "wf_metadata": {
+    "wf.api": "python"
+  },
+  "graph": {
+    "jobs": {
+      "cleanup_gw.dax_0_local": {},
+      "pegasus-plan_gw-main": {},
+      "pegasus-plan_gw-finalization": {},
+      "create_dir_gw.dax_0_local": {}
+    }
+  }
+}

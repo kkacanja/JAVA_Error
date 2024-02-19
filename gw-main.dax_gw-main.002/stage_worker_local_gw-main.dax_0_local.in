@@ -1,0 +1,12 @@
+[
+ { "type": "transfer",
+   "linkage": "input",
+   "lfn": "pegasus::worker",
+   "id": 1,
+   "src_urls": [
+     { "site_label": "pegasus", "url": "http://download.pegasus.isi.edu/pegasus/5.0.6/pegasus-worker-5.0.6-x86_64_rhel_7.tar.gz" }
+   ],
+   "dest_urls": [
+     { "site_label": "local", "url": "file:////home/kkacanja/pycbc/examples/search/output_shared/pycbc-tmp_zmx8la4l/work/././gw-main.dax_gw-main.002/pegasus-worker-5.0.6-x86_64_rhel_7.tar.gz" }
+   ] }
+]

@@ -1,0 +1,97 @@
+[
+ { "type": "transfer",
+   "linkage": "output",
+   "lfn": "V1-PLOT_COINC_SNRCHI_INJ_BBH_H1L1V1-1186740100-3400.png",
+   "id": 1,
+   "verify_checksum_remote": true,
+   "src_urls": [
+     { "site_label": "local", "url": "file:///home/kkacanja/pycbc/examples/search/output_shared/local-site-scratch/work/./gw-main.dax_gw-main/./V1-PLOT_COINC_SNRCHI_INJ_BBH_H1L1V1-1186740100-3400.png" }
+   ],
+   "dest_urls": [
+     { "site_label": "local", "url": "file:///home/kkacanja/pycbc/examples/search/output_shared/results/6._injections/6.01_BBH/V1-PLOT_COINC_SNRCHI_INJ_BBH_H1L1V1-1186740100-3400.png" }
+   ] }
+ ,
+ { "type": "transfer",
+   "linkage": "output",
+   "lfn": "H1-PLOT_COINC_SNRCHI_INJ_BBH_H1V1-1186740100-3400.png",
+   "id": 2,
+   "verify_checksum_remote": true,
+   "src_urls": [
+     { "site_label": "local", "url": "file:///home/kkacanja/pycbc/examples/search/output_shared/local-site-scratch/work/./gw-main.dax_gw-main/./H1-PLOT_COINC_SNRCHI_INJ_BBH_H1V1-1186740100-3400.png" }
+   ],
+   "dest_urls": [
+     { "site_label": "local", "url": "file:///home/kkacanja/pycbc/examples/search/output_shared/results/6._injections/6.01_BBH/H1-PLOT_COINC_SNRCHI_INJ_BBH_H1V1-1186740100-3400.png" }
+   ] }
+ ,
+ { "type": "transfer",
+   "linkage": "output",
+   "lfn": "V1-PLOT_COINC_SNRCHI_INJ_BBH_L1V1-1186740100-3400.png",
+   "id": 3,
+   "verify_checksum_remote": true,
+   "src_urls": [
+     { "site_label": "local", "url": "file:///home/kkacanja/pycbc/examples/search/output_shared/local-site-scratch/work/./gw-main.dax_gw-main/./V1-PLOT_COINC_SNRCHI_INJ_BBH_L1V1-1186740100-3400.png" }
+   ],
+   "dest_urls": [
+     { "site_label": "local", "url": "file:///home/kkacanja/pycbc/examples/search/output_shared/results/6._injections/6.01_BBH/V1-PLOT_COINC_SNRCHI_INJ_BBH_L1V1-1186740100-3400.png" }
+   ] }
+ ,
+ { "type": "transfer",
+   "linkage": "output",
+   "lfn": "H1-PLOT_COINC_SNRCHI_INJ_BBH_H1L1V1-1186740100-3400.png",
+   "id": 4,
+   "verify_checksum_remote": true,
+   "src_urls": [
+     { "site_label": "local", "url": "file:///home/kkacanja/pycbc/examples/search/output_shared/local-site-scratch/work/./gw-main.dax_gw-main/./H1-PLOT_COINC_SNRCHI_INJ_BBH_H1L1V1-1186740100-3400.png" }
+   ],
+   "dest_urls": [
+     { "site_label": "local", "url": "file:///home/kkacanja/pycbc/examples/search/output_shared/results/6._injections/6.01_BBH/H1-PLOT_COINC_SNRCHI_INJ_BBH_H1L1V1-1186740100-3400.png" }
+   ] }
+ ,
+ { "type": "transfer",
+   "linkage": "output",
+   "lfn": "H1L1V1-INJECTION_MINIFOLLOWUP_BBH-1186740100-3400.dax",
+   "id": 5,
+   "verify_checksum_remote": true,
+   "src_urls": [
+     { "site_label": "local", "url": "file:///home/kkacanja/pycbc/examples/search/output_shared/local-site-scratch/work/./gw-main.dax_gw-main/./H1L1V1-INJECTION_MINIFOLLOWUP_BBH-1186740100-3400.dax" }
+   ],
+   "dest_urls": [
+     { "site_label": "local", "url": "file:///home/kkacanja/pycbc/examples/search/output_shared/daxes/H1L1V1-INJECTION_MINIFOLLOWUP_BBH-1186740100-3400.dax" }
+   ] }
+ ,
+ { "type": "transfer",
+   "linkage": "output",
+   "lfn": "H1L1V1-PLOT_SENSITIVITY_SUMMARY_MCHIRP-1186740100-3400.png",
+   "id": 6,
+   "verify_checksum_remote": true,
+   "src_urls": [
+     { "site_label": "local", "url": "file:///home/kkacanja/pycbc/examples/search/output_shared/local-site-scratch/work/./gw-main.dax_gw-main/./H1L1V1-PLOT_SENSITIVITY_SUMMARY_MCHIRP-1186740100-3400.png" }
+   ],
+   "dest_urls": [
+     { "site_label": "local", "url": "file:///home/kkacanja/pycbc/examples/search/output_shared/results/7._search_sensitivity/H1L1V1-PLOT_SENSITIVITY_SUMMARY_MCHIRP-1186740100-3400.png" }
+   ] }
+ ,
+ { "type": "transfer",
+   "linkage": "output",
+   "lfn": "H1L1V1-PLOT_SENSITIVITY_ALL_MCHIRPVT-1186740100-3400.png",
+   "id": 7,
+   "verify_checksum_remote": true,
+   "src_urls": [
+     { "site_label": "local", "url": "file:///home/kkacanja/pycbc/examples/search/output_shared/local-site-scratch/work/./gw-main.dax_gw-main/./H1L1V1-PLOT_SENSITIVITY_ALL_MCHIRPVT-1186740100-3400.png" }
+   ],
+   "dest_urls": [
+     { "site_label": "local", "url": "file:///home/kkacanja/pycbc/examples/search/output_shared/results/7._search_sensitivity/H1L1V1-PLOT_SENSITIVITY_ALL_MCHIRPVT-1186740100-3400.png" }
+   ] }
+ ,
+ { "type": "transfer",
+   "linkage": "output",
+   "lfn": "H1L1V1-PLOT_FOUNDMISSED_SUMMARY-1186740100-3400.png",
+   "id": 8,
+   "verify_checksum_remote": true,
+   "src_urls": [
+     { "site_label": "local", "url": "file:///home/kkacanja/pycbc/examples/search/output_shared/local-site-scratch/work/./gw-main.dax_gw-main/./H1L1V1-PLOT_FOUNDMISSED_SUMMARY-1186740100-3400.png" }
+   ],
+   "dest_urls": [
+     { "site_label": "local", "url": "file:///home/kkacanja/pycbc/examples/search/output_shared/results/6._injections/H1L1V1-PLOT_FOUNDMISSED_SUMMARY-1186740100-3400.png" }
+   ] }
+]

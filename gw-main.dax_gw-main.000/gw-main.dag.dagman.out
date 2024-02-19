@@ -1,0 +1,100 @@
+02/19/24 14:37:13 Setting maximum file descriptors to 65000.
+02/19/24 14:37:13 ******************************************************
+02/19/24 14:37:13 ** condor_scheduniv_exec.38010.0 (CONDOR_DAGMAN) STARTING UP
+02/19/24 14:37:13 ** /usr/bin/condor_dagman
+02/19/24 14:37:13 ** SubsystemInfo: name=DAGMAN type=DAGMAN(10) class=DAEMON(1)
+02/19/24 14:37:13 ** Configuration: subsystem:DAGMAN local:<NONE> class:DAEMON
+02/19/24 14:37:13 ** $CondorVersion: 9.7.0 2022-03-13 BuildID: Debian-9.7.0-1.1 PackageID: 9.7.0-1.1 Debian-9.7.0-1.1 $
+02/19/24 14:37:13 ** $CondorPlatform: X86_64-Ubuntu_20.04 $
+02/19/24 14:37:13 ** PID = 568560
+02/19/24 14:37:13 ** Log last touched time unavailable (No such file or directory)
+02/19/24 14:37:13 ******************************************************
+02/19/24 14:37:13 Using config source: /etc/condor/condor_config
+02/19/24 14:37:13 Using local config sources: 
+02/19/24 14:37:13    /etc/condor/config.d/01-submit.config
+02/19/24 14:37:13    /etc/condor/condor_config.local
+02/19/24 14:37:13    /home/kkacanja/.condor/user_config
+02/19/24 14:37:13 config Macros = 91, Sorted = 91, StringBytes = 2480, TablesBytes = 3340
+02/19/24 14:37:13 CLASSAD_CACHING is ENABLED
+02/19/24 14:37:13 Daemon Log is logging: D_ALWAYS D_ERROR
+02/19/24 14:37:13 DaemonCore: No command port requested.
+02/19/24 14:37:13 DAGMAN_USE_STRICT setting: 1
+02/19/24 14:37:13 DAGMAN_VERBOSITY setting: 3
+02/19/24 14:37:13 DAGMAN_DEBUG_CACHE_SIZE setting: 5242880
+02/19/24 14:37:13 DAGMAN_DEBUG_CACHE_ENABLE setting: False
+02/19/24 14:37:13 DAGMAN_SUBMIT_DELAY setting: 0
+02/19/24 14:37:13 DAGMAN_MAX_SUBMIT_ATTEMPTS setting: 6
+02/19/24 14:37:13 DAGMAN_STARTUP_CYCLE_DETECT setting: False
+02/19/24 14:37:13 DAGMAN_MAX_SUBMITS_PER_INTERVAL setting: 50
+02/19/24 14:37:13 DAGMAN_AGGRESSIVE_SUBMIT setting: False
+02/19/24 14:37:13 DAGMAN_USER_LOG_SCAN_INTERVAL setting: 5
+02/19/24 14:37:13 DAGMAN_QUEUE_UPDATE_INTERVAL setting: 300
+02/19/24 14:37:13 DAGMAN_DEFAULT_PRIORITY setting: 0
+02/19/24 14:37:13 DAGMAN_SUPPRESS_NOTIFICATION setting: True
+02/19/24 14:37:13 allow_events (DAGMAN_ALLOW_EVENTS) setting: 114
+02/19/24 14:37:13 DAGMAN_RETRY_SUBMIT_FIRST setting: True
+02/19/24 14:37:13 DAGMAN_RETRY_NODE_FIRST setting: False
+02/19/24 14:37:13 DAGMAN_MAX_JOBS_IDLE setting: 2500
+02/19/24 14:37:13 DAGMAN_MAX_JOBS_SUBMITTED setting: 50000
+02/19/24 14:37:13 DAGMAN_MAX_PRE_SCRIPTS setting: 20
+02/19/24 14:37:13 DAGMAN_MAX_POST_SCRIPTS setting: 20
+02/19/24 14:37:13 DAGMAN_MAX_HOLD_SCRIPTS setting: 20
+02/19/24 14:37:13 DAGMAN_MUNGE_NODE_NAMES setting: True
+02/19/24 14:37:13 DAGMAN_PROHIBIT_MULTI_JOBS setting: True
+02/19/24 14:37:13 DAGMAN_SUBMIT_DEPTH_FIRST setting: True
+02/19/24 14:37:13 DAGMAN_ALWAYS_RUN_POST setting: False
+02/19/24 14:37:13 DAGMAN_CONDOR_SUBMIT_EXE setting: /usr/bin/condor_submit
+02/19/24 14:37:13 DAGMAN_USE_DIRECT_SUBMIT setting: True
+02/19/24 14:37:13 DAGMAN_ABORT_DUPLICATES setting: True
+02/19/24 14:37:13 DAGMAN_ABORT_ON_SCARY_SUBMIT setting: True
+02/19/24 14:37:13 DAGMAN_PENDING_REPORT_INTERVAL setting: 600
+02/19/24 14:37:13 DAGMAN_AUTO_RESCUE setting: True
+02/19/24 14:37:13 DAGMAN_MAX_RESCUE_NUM setting: 100
+02/19/24 14:37:13 DAGMAN_WRITE_PARTIAL_RESCUE setting: True
+02/19/24 14:37:13 DAGMAN_DEFAULT_NODE_LOG setting: @(DAG_DIR)/@(DAG_FILE).nodes.log
+02/19/24 14:37:13 DAGMAN_GENERATE_SUBDAG_SUBMITS setting: True
+02/19/24 14:37:13 DAGMAN_MAX_JOB_HOLDS setting: 100
+02/19/24 14:37:13 DAGMAN_HOLD_CLAIM_TIME setting: 20
+02/19/24 14:37:13 ALL_DEBUG setting: 
+02/19/24 14:37:13 DAGMAN_DEBUG setting: 
+02/19/24 14:37:13 DAGMAN_SUPPRESS_JOB_LOGS setting: False
+02/19/24 14:37:13 DAGMAN_REMOVE_NODE_JOBS setting: True
+02/19/24 14:37:13 DAGMAN will adjust edges after parsing
+02/19/24 14:37:13 argv[0] == "condor_scheduniv_exec.38010.0"
+02/19/24 14:37:13 argv[1] == "-Notification"
+02/19/24 14:37:13 argv[2] == "never"
+02/19/24 14:37:13 argv[3] == "-Debug"
+02/19/24 14:37:13 argv[4] == "3"
+02/19/24 14:37:13 argv[5] == "-Lockfile"
+02/19/24 14:37:13 argv[6] == "gw-main.dag.lock"
+02/19/24 14:37:13 argv[7] == "-Dag"
+02/19/24 14:37:13 argv[8] == "gw-main.dag"
+02/19/24 14:37:13 argv[9] == "-AllowVersionMismatch"
+02/19/24 14:37:13 argv[10] == "-AutoRescue"
+02/19/24 14:37:13 argv[11] == "1"
+02/19/24 14:37:13 argv[12] == "-DoRescueFrom"
+02/19/24 14:37:13 argv[13] == "0"
+02/19/24 14:37:13 argv[14] == "-MaxPre"
+02/19/24 14:37:13 argv[15] == "1"
+02/19/24 14:37:13 Can't open directory "/etc/condor/passwords.d" as PRIV_ROOT, errno: 13 (Permission denied)
+02/19/24 14:37:13 Can't open directory "/etc/condor/passwords.d" as PRIV_ROOT, errno: 13 (Permission denied)
+02/19/24 14:37:13 Can't open directory "/home/kkacanja/.condor/tokens.d" as PRIV_ROOT, errno: 2 (No such file or directory)
+02/19/24 14:37:13 TOKEN: No token found.
+02/19/24 14:37:13 Workflow batch-id: <38010.0>
+02/19/24 14:37:13 Workflow batch-name: <gw-main.dag+38010>
+02/19/24 14:37:13 Workflow accounting_group: <>
+02/19/24 14:37:13 Workflow accounting_group_user: <>
+02/19/24 14:37:13 Warning: failed to get attribute DAGNodeName
+02/19/24 14:37:13 DAGMAN_LOG_ON_NFS_IS_ERROR setting: False
+02/19/24 14:37:13 Default node log file is: </home/kkacanja/pycbc/examples/search/output_shared/pycbc-tmp_zmx8la4l/work/gw-main.dax_gw-main.000/./gw-main.dag.nodes.log>
+02/19/24 14:37:13 Note:  DAGMAN_MAX_JOBS_IDLE has been changed from the default setting; if your submit files create multiple procs, you should probably set DAGMAN_MAX_SUBMITS_PER_INTERVAL to 1
+02/19/24 14:37:13 DAG Lockfile will be written to gw-main.dag.lock
+02/19/24 14:37:13 DAG Input file is gw-main.dag
+02/19/24 14:37:13 Parsing 1 dagfiles
+02/19/24 14:37:13 Parsing gw-main.dag ...
+02/19/24 14:37:13 ERROR: Could not open file gw-main.dag for input (cwd /home/kkacanja/pycbc/examples/search/output_shared/pycbc-tmp_zmx8la4l/work/gw-main.dax_gw-main.000) (errno 2, No such file or directory)
+02/19/24 14:37:13 Removing any/all submitted HTCondor jobs...
+02/19/24 14:37:13 Running: /usr/bin/condor_rm -const DAGManJobId==38010
+02/19/24 14:37:13 Disabling log line cache.
+02/19/24 14:37:13 Failed to parse gw-main.dag
+02/19/24 14:37:13 **** condor_scheduniv_exec.38010.0 (condor_DAGMAN) pid 568560 EXITING WITH STATUS 1

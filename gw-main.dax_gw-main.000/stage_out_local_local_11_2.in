@@ -1,0 +1,109 @@
+[
+ { "type": "transfer",
+   "linkage": "output",
+   "lfn": "H1-SINGLES_MINIFOLLOWUP_FULL_DATA_NONCOINC-1186740100-3400.dax",
+   "id": 1,
+   "verify_checksum_remote": true,
+   "src_urls": [
+     { "site_label": "local", "url": "file:///home/kkacanja/pycbc/examples/search/output_shared/local-site-scratch/work/./gw-main.dax_gw-main/./H1-SINGLES_MINIFOLLOWUP_FULL_DATA_NONCOINC-1186740100-3400.dax" }
+   ],
+   "dest_urls": [
+     { "site_label": "local", "url": "file:///home/kkacanja/pycbc/examples/search/output_shared/daxes/H1-SINGLES_MINIFOLLOWUP_FULL_DATA_NONCOINC-1186740100-3400.dax" }
+   ] }
+ ,
+ { "type": "transfer",
+   "linkage": "output",
+   "lfn": "H1-SINGLES_MINIFOLLOWUP_FULL_DATA_ALL-1186740100-3400.dax.map",
+   "id": 2,
+   "verify_checksum_remote": true,
+   "src_urls": [
+     { "site_label": "local", "url": "file:///home/kkacanja/pycbc/examples/search/output_shared/local-site-scratch/work/./gw-main.dax_gw-main/./H1-SINGLES_MINIFOLLOWUP_FULL_DATA_ALL-1186740100-3400.dax.map" }
+   ],
+   "dest_urls": [
+     { "site_label": "local", "url": "file:///home/kkacanja/pycbc/examples/search/output_shared/daxes/H1-SINGLES_MINIFOLLOWUP_FULL_DATA_ALL-1186740100-3400.dax.map" }
+   ] }
+ ,
+ { "type": "transfer",
+   "linkage": "output",
+   "lfn": "L1-SINGLES_MINIFOLLOWUP_FULL_DATA_NONCOINC-1186740100-3400.dax",
+   "id": 3,
+   "verify_checksum_remote": true,
+   "src_urls": [
+     { "site_label": "local", "url": "file:///home/kkacanja/pycbc/examples/search/output_shared/local-site-scratch/work/./gw-main.dax_gw-main/./L1-SINGLES_MINIFOLLOWUP_FULL_DATA_NONCOINC-1186740100-3400.dax" }
+   ],
+   "dest_urls": [
+     { "site_label": "local", "url": "file:///home/kkacanja/pycbc/examples/search/output_shared/daxes/L1-SINGLES_MINIFOLLOWUP_FULL_DATA_NONCOINC-1186740100-3400.dax" }
+   ] }
+ ,
+ { "type": "transfer",
+   "linkage": "output",
+   "lfn": "V1-PLOT_SNRCHI_FULL_DATA-1186740100-3400.png",
+   "id": 4,
+   "verify_checksum_remote": true,
+   "src_urls": [
+     { "site_label": "local", "url": "file:///home/kkacanja/pycbc/examples/search/output_shared/local-site-scratch/work/./gw-main.dax_gw-main/./V1-PLOT_SNRCHI_FULL_DATA-1186740100-3400.png" }
+   ],
+   "dest_urls": [
+     { "site_label": "local", "url": "file:///home/kkacanja/pycbc/examples/search/output_shared/results/4._single_triggers/V1-PLOT_SNRCHI_FULL_DATA-1186740100-3400.png" }
+   ] }
+ ,
+ { "type": "transfer",
+   "linkage": "output",
+   "lfn": "H1-PLOT_HIST_SUMM_NEWSNR_FULL_DATA-1186740100-3400.png",
+   "id": 5,
+   "verify_checksum_remote": true,
+   "src_urls": [
+     { "site_label": "local", "url": "file:///home/kkacanja/pycbc/examples/search/output_shared/local-site-scratch/work/./gw-main.dax_gw-main/./H1-PLOT_HIST_SUMM_NEWSNR_FULL_DATA-1186740100-3400.png" }
+   ],
+   "dest_urls": [
+     { "site_label": "local", "url": "file:///home/kkacanja/pycbc/examples/search/output_shared/results/4._single_triggers/4.02_H1_trigger_histograms/H1-PLOT_HIST_SUMM_NEWSNR_FULL_DATA-1186740100-3400.png" }
+   ] }
+ ,
+ { "type": "transfer",
+   "linkage": "output",
+   "lfn": "L1-SINGLES_MINIFOLLOWUP_FULL_DATA_ALL-1186740100-3400.dax",
+   "id": 6,
+   "verify_checksum_remote": true,
+   "src_urls": [
+     { "site_label": "local", "url": "file:///home/kkacanja/pycbc/examples/search/output_shared/local-site-scratch/work/./gw-main.dax_gw-main/./L1-SINGLES_MINIFOLLOWUP_FULL_DATA_ALL-1186740100-3400.dax" }
+   ],
+   "dest_urls": [
+     { "site_label": "local", "url": "file:///home/kkacanja/pycbc/examples/search/output_shared/daxes/L1-SINGLES_MINIFOLLOWUP_FULL_DATA_ALL-1186740100-3400.dax" }
+   ] }
+ ,
+ { "type": "transfer",
+   "linkage": "output",
+   "lfn": "V1-SINGLES_MINIFOLLOWUP_FULL_DATA_NONCOINC-1186740100-3400.dax.map",
+   "id": 7,
+   "verify_checksum_remote": true,
+   "src_urls": [
+     { "site_label": "local", "url": "file:///home/kkacanja/pycbc/examples/search/output_shared/local-site-scratch/work/./gw-main.dax_gw-main/./V1-SINGLES_MINIFOLLOWUP_FULL_DATA_NONCOINC-1186740100-3400.dax.map" }
+   ],
+   "dest_urls": [
+     { "site_label": "local", "url": "file:///home/kkacanja/pycbc/examples/search/output_shared/daxes/V1-SINGLES_MINIFOLLOWUP_FULL_DATA_NONCOINC-1186740100-3400.dax.map" }
+   ] }
+ ,
+ { "type": "transfer",
+   "linkage": "output",
+   "lfn": "H1-PLOT_SINGLES_MTOTAL_ETA_NEWSNR_FULL_DATA-1186740100-3400.png",
+   "id": 8,
+   "verify_checksum_remote": true,
+   "src_urls": [
+     { "site_label": "local", "url": "file:///home/kkacanja/pycbc/examples/search/output_shared/local-site-scratch/work/./gw-main.dax_gw-main/./H1-PLOT_SINGLES_MTOTAL_ETA_NEWSNR_FULL_DATA-1186740100-3400.png" }
+   ],
+   "dest_urls": [
+     { "site_label": "local", "url": "file:///home/kkacanja/pycbc/examples/search/output_shared/results/4._single_triggers/4.01_H1_binned_triggers/H1-PLOT_SINGLES_MTOTAL_ETA_NEWSNR_FULL_DATA-1186740100-3400.png" }
+   ] }
+ ,
+ { "type": "transfer",
+   "linkage": "output",
+   "lfn": "V1-PLOT_HIST_SUMM_SNR_FULL_DATA-1186740100-3400.png",
+   "id": 9,
+   "verify_checksum_remote": true,
+   "src_urls": [
+     { "site_label": "local", "url": "file:///home/kkacanja/pycbc/examples/search/output_shared/local-site-scratch/work/./gw-main.dax_gw-main/./V1-PLOT_HIST_SUMM_SNR_FULL_DATA-1186740100-3400.png" }
+   ],
+   "dest_urls": [
+     { "site_label": "local", "url": "file:///home/kkacanja/pycbc/examples/search/output_shared/results/4._single_triggers/4.08_V1_trigger_histograms/V1-PLOT_HIST_SUMM_SNR_FULL_DATA-1186740100-3400.png" }
+   ] }
+]

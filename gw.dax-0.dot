@@ -1,0 +1,15 @@
+digraph E {
+size="8.0,10.0"
+ratio=fill
+node [shape=ellipse]
+edge [arrowhead=normal, arrowsize=1.0]
+	"cleanup_gw.dax_0_local" [color=deepskyblue,style=filled,label="cleanup_gw.dax_0_local"]
+	"pegasus-plan_gw-main" [color=grey,style=filled,label="pegasus-plan_gw-main"]
+	"pegasus-plan_gw-finalization" [color=grey,style=filled,label="pegasus-plan_gw-finalization"]
+	"create_dir_gw.dax_0_local" [color=darkturquoise,style=filled,label="create_dir_gw.dax_0_local"]
+
+	"pegasus-plan_gw-main" -> "cleanup_gw.dax_0_local"
+	"pegasus-plan_gw-main" -> "pegasus-plan_gw-finalization"
+	"pegasus-plan_gw-finalization" -> "cleanup_gw.dax_0_local"
+	"create_dir_gw.dax_0_local" -> "pegasus-plan_gw-main"
+}

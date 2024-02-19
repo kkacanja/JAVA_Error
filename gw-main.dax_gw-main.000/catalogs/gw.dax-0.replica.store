@@ -1,0 +1,5 @@
+# file-based replica catalog: 2024-02-19T14:25:24.241-05:00
+gw-finalization.dax /home/kkacanja/pycbc/examples/search/output_shared/gw-finalization.dax site="local"
+gw-finalization.map /home/kkacanja/pycbc/examples/search/output_shared/gw-finalization.map priority="0" site="local"
+gw-main.map /home/kkacanja/pycbc/examples/search/output_shared/gw-main.map priority="0" site="local"
+gw-main.dax /home/kkacanja/pycbc/examples/search/output_shared/gw-main.dax site="local"

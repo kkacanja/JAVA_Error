@@ -1,0 +1,77 @@
+x-pegasus:
+  apiLang: python
+  createdBy: kkacanja
+  createdOn: 02-19-24T14:25:21Z
+pegasus: 5.0.4
+name: gw.dax
+replicaCatalog:
+  replicas:
+  - lfn: gw-main.map
+    pfns:
+    - site: local
+      pfn: /home/kkacanja/pycbc/examples/search/output_shared/gw-main.map
+  - lfn: gw-main.dax
+    pfns:
+    - site: local
+      pfn: /home/kkacanja/pycbc/examples/search/output_shared/gw-main.dax
+  - lfn: gw-finalization.map
+    pfns:
+    - site: local
+      pfn: /home/kkacanja/pycbc/examples/search/output_shared/gw-finalization.map
+  - lfn: gw-finalization.dax
+    pfns:
+    - site: local
+      pfn: /home/kkacanja/pycbc/examples/search/output_shared/gw-finalization.dax
+transformationCatalog:
+  transformations: []
+jobs:
+- type: pegasusWorkflow
+  file: gw-main.dax
+  id: gw-main
+  arguments:
+  - -Dpegasus.dir.storage.mapper.replica.file=gw-main.map
+  - --basename
+  - gw-main
+  - --cluster
+  - label,horizontal
+  - --output-sites
+  - local
+  - --staging-site
+  - condorpool_symlink=local,local=local,condorpool_shared=condorpool_shared,condorpool_copy=local
+  - --cleanup
+  - inplace
+  - -vvv
+  uses:
+  - lfn: gw-main.dax
+    forPlanning: true
+    type: input
+  - lfn: gw-main.map
+    forPlanning: true
+    type: input
+- type: pegasusWorkflow
+  file: gw-finalization.dax
+  id: gw-finalization
+  arguments:
+  - -Dpegasus.dir.storage.mapper.replica.file=gw-finalization.map
+  - --basename
+  - gw-finalization
+  - --cluster
+  - label,horizontal
+  - --output-sites
+  - local
+  - --staging-site
+  - condorpool_symlink=local,local=local,condorpool_shared=condorpool_shared,condorpool_copy=local
+  - --cleanup
+  - inplace
+  - -vvv
+  uses:
+  - lfn: gw-finalization.map
+    forPlanning: true
+    type: input
+  - lfn: gw-finalization.dax
+    forPlanning: true
+    type: input
+jobDependencies:
+- id: gw-main
+  children:
+  - gw-finalization

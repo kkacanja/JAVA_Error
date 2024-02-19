@@ -1,0 +1,201 @@
+02/19/24 14:25:31 Setting maximum file descriptors to 65000.
+02/19/24 14:25:31 ******************************************************
+02/19/24 14:25:31 ** condor_scheduniv_exec.37796.0 (CONDOR_DAGMAN) STARTING UP
+02/19/24 14:25:31 ** /usr/bin/condor_dagman
+02/19/24 14:25:31 ** SubsystemInfo: name=DAGMAN type=DAGMAN(10) class=DAEMON(1)
+02/19/24 14:25:31 ** Configuration: subsystem:DAGMAN local:<NONE> class:DAEMON
+02/19/24 14:25:31 ** $CondorVersion: 9.7.0 2022-03-13 BuildID: Debian-9.7.0-1.1 PackageID: 9.7.0-1.1 Debian-9.7.0-1.1 $
+02/19/24 14:25:31 ** $CondorPlatform: X86_64-Ubuntu_20.04 $
+02/19/24 14:25:31 ** PID = 561319
+02/19/24 14:25:31 ** Log last touched time unavailable (No such file or directory)
+02/19/24 14:25:31 ******************************************************
+02/19/24 14:25:31 Using config source: /etc/condor/condor_config
+02/19/24 14:25:31 Using local config sources: 
+02/19/24 14:25:31    /etc/condor/config.d/01-submit.config
+02/19/24 14:25:31    /etc/condor/condor_config.local
+02/19/24 14:25:31    /home/kkacanja/.condor/user_config
+02/19/24 14:25:31 config Macros = 91, Sorted = 91, StringBytes = 2459, TablesBytes = 3340
+02/19/24 14:25:31 CLASSAD_CACHING is ENABLED
+02/19/24 14:25:31 Daemon Log is logging: D_ALWAYS D_ERROR
+02/19/24 14:25:31 DaemonCore: No command port requested.
+02/19/24 14:25:31 DAGMAN_USE_STRICT setting: 1
+02/19/24 14:25:31 DAGMAN_VERBOSITY setting: 3
+02/19/24 14:25:31 DAGMAN_DEBUG_CACHE_SIZE setting: 5242880
+02/19/24 14:25:31 DAGMAN_DEBUG_CACHE_ENABLE setting: False
+02/19/24 14:25:31 DAGMAN_SUBMIT_DELAY setting: 0
+02/19/24 14:25:31 DAGMAN_MAX_SUBMIT_ATTEMPTS setting: 6
+02/19/24 14:25:31 DAGMAN_STARTUP_CYCLE_DETECT setting: False
+02/19/24 14:25:31 DAGMAN_MAX_SUBMITS_PER_INTERVAL setting: 50
+02/19/24 14:25:31 DAGMAN_AGGRESSIVE_SUBMIT setting: False
+02/19/24 14:25:31 DAGMAN_USER_LOG_SCAN_INTERVAL setting: 5
+02/19/24 14:25:31 DAGMAN_QUEUE_UPDATE_INTERVAL setting: 300
+02/19/24 14:25:31 DAGMAN_DEFAULT_PRIORITY setting: 0
+02/19/24 14:25:31 DAGMAN_SUPPRESS_NOTIFICATION setting: True
+02/19/24 14:25:31 allow_events (DAGMAN_ALLOW_EVENTS) setting: 114
+02/19/24 14:25:31 DAGMAN_RETRY_SUBMIT_FIRST setting: True
+02/19/24 14:25:31 DAGMAN_RETRY_NODE_FIRST setting: False
+02/19/24 14:25:31 DAGMAN_MAX_JOBS_IDLE setting: 2500
+02/19/24 14:25:31 DAGMAN_MAX_JOBS_SUBMITTED setting: 50000
+02/19/24 14:25:31 DAGMAN_MAX_PRE_SCRIPTS setting: 20
+02/19/24 14:25:31 DAGMAN_MAX_POST_SCRIPTS setting: 20
+02/19/24 14:25:31 DAGMAN_MAX_HOLD_SCRIPTS setting: 20
+02/19/24 14:25:31 DAGMAN_MUNGE_NODE_NAMES setting: True
+02/19/24 14:25:31 DAGMAN_PROHIBIT_MULTI_JOBS setting: True
+02/19/24 14:25:31 DAGMAN_SUBMIT_DEPTH_FIRST setting: True
+02/19/24 14:25:31 DAGMAN_ALWAYS_RUN_POST setting: False
+02/19/24 14:25:31 DAGMAN_CONDOR_SUBMIT_EXE setting: /usr/bin/condor_submit
+02/19/24 14:25:31 DAGMAN_USE_DIRECT_SUBMIT setting: True
+02/19/24 14:25:31 DAGMAN_ABORT_DUPLICATES setting: True
+02/19/24 14:25:31 DAGMAN_ABORT_ON_SCARY_SUBMIT setting: True
+02/19/24 14:25:31 DAGMAN_PENDING_REPORT_INTERVAL setting: 600
+02/19/24 14:25:31 DAGMAN_AUTO_RESCUE setting: True
+02/19/24 14:25:31 DAGMAN_MAX_RESCUE_NUM setting: 100
+02/19/24 14:25:31 DAGMAN_WRITE_PARTIAL_RESCUE setting: True
+02/19/24 14:25:31 DAGMAN_DEFAULT_NODE_LOG setting: @(DAG_DIR)/@(DAG_FILE).nodes.log
+02/19/24 14:25:31 DAGMAN_GENERATE_SUBDAG_SUBMITS setting: True
+02/19/24 14:25:31 DAGMAN_MAX_JOB_HOLDS setting: 100
+02/19/24 14:25:31 DAGMAN_HOLD_CLAIM_TIME setting: 20
+02/19/24 14:25:31 ALL_DEBUG setting: 
+02/19/24 14:25:31 DAGMAN_DEBUG setting: 
+02/19/24 14:25:31 DAGMAN_SUPPRESS_JOB_LOGS setting: False
+02/19/24 14:25:31 DAGMAN_REMOVE_NODE_JOBS setting: True
+02/19/24 14:25:31 DAGMAN will adjust edges after parsing
+02/19/24 14:25:31 argv[0] == "condor_scheduniv_exec.37796.0"
+02/19/24 14:25:31 argv[1] == "-Lockfile"
+02/19/24 14:25:31 argv[2] == "gw.dax-0.dag.lock"
+02/19/24 14:25:31 argv[3] == "-AutoRescue"
+02/19/24 14:25:31 argv[4] == "1"
+02/19/24 14:25:31 argv[5] == "-DoRescueFrom"
+02/19/24 14:25:31 argv[6] == "0"
+02/19/24 14:25:31 argv[7] == "-Dag"
+02/19/24 14:25:31 argv[8] == "gw.dax-0.dag"
+02/19/24 14:25:31 argv[9] == "-MaxPre"
+02/19/24 14:25:31 argv[10] == "1"
+02/19/24 14:25:31 argv[11] == "-MaxPost"
+02/19/24 14:25:31 argv[12] == "20"
+02/19/24 14:25:31 argv[13] == "-Suppress_notification"
+02/19/24 14:25:31 argv[14] == "-CsdVersion"
+02/19/24 14:25:31 argv[15] == "$CondorVersion: 9.7.0 2022-03-13 BuildID: Debian-9.7.0-1.1 PackageID: 9.7.0-1.1 Debian-9.7.0-1.1 $"
+02/19/24 14:25:31 argv[16] == "-Dagman"
+02/19/24 14:25:31 argv[17] == "/usr/bin/condor_dagman"
+02/19/24 14:25:31 Can't open directory "/etc/condor/passwords.d" as PRIV_ROOT, errno: 13 (Permission denied)
+02/19/24 14:25:31 Can't open directory "/etc/condor/passwords.d" as PRIV_ROOT, errno: 13 (Permission denied)
+02/19/24 14:25:31 Can't open directory "/home/kkacanja/.condor/tokens.d" as PRIV_ROOT, errno: 2 (No such file or directory)
+02/19/24 14:25:31 TOKEN: No token found.
+02/19/24 14:25:31 Workflow batch-id: <37796.0>
+02/19/24 14:25:31 Workflow batch-name: <gw.dax-0.dag+37796>
+02/19/24 14:25:31 Workflow accounting_group: <>
+02/19/24 14:25:31 Workflow accounting_group_user: <>
+02/19/24 14:25:31 Warning: failed to get attribute DAGNodeName
+02/19/24 14:25:31 DAGMAN_LOG_ON_NFS_IS_ERROR setting: False
+02/19/24 14:25:31 Default node log file is: </home/kkacanja/pycbc/examples/search/output_shared/pycbc-tmp_zmx8la4l/work/./gw.dax-0.dag.nodes.log>
+02/19/24 14:25:31 Note:  DAGMAN_MAX_JOBS_IDLE has been changed from the default setting; if your submit files create multiple procs, you should probably set DAGMAN_MAX_SUBMITS_PER_INTERVAL to 1
+02/19/24 14:25:31 DAG Lockfile will be written to gw.dax-0.dag.lock
+02/19/24 14:25:31 DAG Input file is gw.dax-0.dag
+02/19/24 14:25:31 Parsing 1 dagfiles
+02/19/24 14:25:31 Parsing gw.dax-0.dag ...
+02/19/24 14:25:31 Adjusting edges
+02/19/24 14:25:31 Warning: category cleanup has no assigned nodes, so the throttle setting (4) will have no effect
+02/19/24 14:25:31 Warning: category registration has no assigned nodes, so the throttle setting (1) will have no effect
+02/19/24 14:25:31 Warning: category stagein has no assigned nodes, so the throttle setting (10) will have no effect
+02/19/24 14:25:31 Warning: category stageout has no assigned nodes, so the throttle setting (10) will have no effect
+02/19/24 14:25:31 Warning: category subwf has no throttle value set
+02/19/24 14:25:31 Dag contains 4 total jobs
+02/19/24 14:25:31 Bootstrapping...
+02/19/24 14:25:31 Number of pre-completed nodes: 0
+02/19/24 14:25:31 MultiLogFiles: truncating log file /home/kkacanja/pycbc/examples/search/output_shared/pycbc-tmp_zmx8la4l/work/./gw.dax-0.dag.nodes.log
+02/19/24 14:25:31 DAG status: 0 (DAG_STATUS_OK)
+02/19/24 14:25:31 Of 4 nodes total:
+02/19/24 14:25:31  Done     Pre   Queued    Post   Ready   Un-Ready   Failed
+02/19/24 14:25:31   ===     ===      ===     ===     ===        ===      ===
+02/19/24 14:25:31     0       0        0       0       1          3        0
+02/19/24 14:25:31 0 job proc(s) currently held
+02/19/24 14:25:31 DAGMan Runtime Statistics: [ EventCycleTimeCount = 0.0; EventCycleTimeSum = 0.0; LogProcessCycleTimeCount = 0.0; LogProcessCycleTimeSum = 0.0; SleepCycleTimeCount = 0.0; SleepCycleTimeSum = 0.0; SubmitCycleTimeCount = 0.0; SubmitCycleTimeSum = 0.0; ]
+02/19/24 14:25:31 Registering condor_event_timer...
+02/19/24 14:25:32 Submitting HTCondor Node create_dir_gw.dax_0_local job(s)...
+02/19/24 14:25:32 Submitting node create_dir_gw.dax_0_local from file ./create_dir_gw.dax_0_local.sub using direct job submission
+02/19/24 14:25:32 Submit warning: Submit:0:the line 'JOB = create_dir_gw.dax_0_local' was unused by DAGMAN. Is it a typo?
+02/19/24 14:25:32 	assigned HTCondor ID (37803.0.0)
+02/19/24 14:25:32 Just submitted 1 job this cycle...
+02/19/24 14:25:32 DAG status: 0 (DAG_STATUS_OK)
+02/19/24 14:25:32 Of 4 nodes total:
+02/19/24 14:25:32  Done     Pre   Queued    Post   Ready   Un-Ready   Failed
+02/19/24 14:25:32   ===     ===      ===     ===     ===        ===      ===
+02/19/24 14:25:32     0       0        1       0       0          3        0
+02/19/24 14:25:32 0 job proc(s) currently held
+02/19/24 14:25:32 DAGMan Runtime Statistics: [ EventCycleTimeCount = 0.0; EventCycleTimeSum = 0.0; LogProcessCycleTimeCount = 0.0; LogProcessCycleTimeSum = 0.0; SleepCycleTimeCount = 0.0; SleepCycleTimeSum = 0.0; SubmitCycleTimeAvg = 0.01025509834289551; SubmitCycleTimeCount = 1.0; SubmitCycleTimeMax = 0.01025509834289551; SubmitCycleTimeMin = 0.01025509834289551; SubmitCycleTimeStd = 0.01025509834289551; SubmitCycleTimeSum = 0.01025509834289551; ]
+02/19/24 14:25:37 Currently monitoring 1 HTCondor log file(s)
+02/19/24 14:25:37 Reassigning the id of job create_dir_gw.dax_0_local from (37803.0.0) to (37803.0.0)
+02/19/24 14:25:37 Event: ULOG_SUBMIT for HTCondor Node create_dir_gw.dax_0_local (37803.0.0) {02/19/24 14:25:32}
+02/19/24 14:25:37 Number of idle job procs: 1
+02/19/24 14:25:37 Event: ULOG_EXECUTE for HTCondor Node create_dir_gw.dax_0_local (37803.0.0) {02/19/24 14:25:36}
+02/19/24 14:25:37 Number of idle job procs: 0
+02/19/24 14:25:42 Currently monitoring 1 HTCondor log file(s)
+02/19/24 14:25:42 Event: ULOG_JOB_TERMINATED for HTCondor Node create_dir_gw.dax_0_local (37803.0.0) {02/19/24 14:25:39}
+02/19/24 14:25:42 Number of idle job procs: 0
+02/19/24 14:25:42 Node create_dir_gw.dax_0_local job proc (37803.0.0) completed successfully.
+02/19/24 14:25:42 Node create_dir_gw.dax_0_local job completed
+02/19/24 14:25:42 Running POST script of Node create_dir_gw.dax_0_local...
+02/19/24 14:25:42 Warning: mysin has length 0 (ignore if produced by DAGMan; see gittrac #4987, #5031)
+02/19/24 14:25:42 DAG status: 0 (DAG_STATUS_OK)
+02/19/24 14:25:42 Of 4 nodes total:
+02/19/24 14:25:42  Done     Pre   Queued    Post   Ready   Un-Ready   Failed
+02/19/24 14:25:42   ===     ===      ===     ===     ===        ===      ===
+02/19/24 14:25:42     0       0        0       1       0          3        0
+02/19/24 14:25:42 0 job proc(s) currently held
+02/19/24 14:25:42 DAGMan Runtime Statistics: [ EventCycleTimeAvg = 0.005558013916015625; EventCycleTimeCount = 2.0; EventCycleTimeMax = 0.01042604446411133; EventCycleTimeMin = 0.0006899833679199219; EventCycleTimeStd = 0.006884434823163475; EventCycleTimeSum = 0.01111602783203125; LogProcessCycleTimeAvg = 0.01810538768768311; LogProcessCycleTimeCount = 2.0; LogProcessCycleTimeMax = 0.03604888916015625; LogProcessCycleTimeMin = 0.0001618862152099609; LogProcessCycleTimeStd = 0.02537594313883312; LogProcessCycleTimeSum = 0.03621077537536621; SleepCycleTimeAvg = 5.003854036331177; SleepCycleTimeCount = 2.0; SleepCycleTimeMax = 5.005082130432129; SleepCycleTimeMin = 5.002625942230225; SleepCycleTimeStd = 0.001736787333436921; SleepCycleTimeSum = 10.00770807266235; SubmitCycleTimeAvg = 0.003426392873128255; SubmitCycleTimeCount = 3.0; SubmitCycleTimeMax = 0.01025509834289551; SubmitCycleTimeMin = 1.096725463867188E-05; SubmitCycleTimeStd = 0.005913832509101109; SubmitCycleTimeSum = 0.01027917861938477; ]
+02/19/24 14:25:43 Initializing user log writer for /home/kkacanja/pycbc/examples/search/output_shared/pycbc-tmp_zmx8la4l/work/./gw.dax-0.dag.nodes.log, (37803.0.0)
+02/19/24 14:25:47 Currently monitoring 1 HTCondor log file(s)
+02/19/24 14:25:47 Event: ULOG_POST_SCRIPT_TERMINATED for HTCondor Node create_dir_gw.dax_0_local (37803.0.0) {02/19/24 14:25:43}
+02/19/24 14:25:47 POST Script of node create_dir_gw.dax_0_local completed successfully.
+02/19/24 14:25:47 Running PRE script of Node pegasus-plan_gw-main...
+02/19/24 14:25:47 Warning: mysin has length 0 (ignore if produced by DAGMan; see gittrac #4987, #5031)
+02/19/24 14:25:47 DAG status: 0 (DAG_STATUS_OK)
+02/19/24 14:25:47 Of 4 nodes total:
+02/19/24 14:25:47  Done     Pre   Queued    Post   Ready   Un-Ready   Failed
+02/19/24 14:25:47   ===     ===      ===     ===     ===        ===      ===
+02/19/24 14:25:47     1       1        0       0       0          2        0
+02/19/24 14:25:47 0 job proc(s) currently held
+02/19/24 14:25:47 DAGMan Runtime Statistics: [ EventCycleTimeAvg = 0.01578831672668457; EventCycleTimeCount = 3.0; EventCycleTimeMax = 0.03624892234802246; EventCycleTimeMin = 0.0006899833679199219; EventCycleTimeStd = 0.01837593557376429; EventCycleTimeSum = 0.04736495018005371; LogProcessCycleTimeAvg = 0.02304720878601074; LogProcessCycleTimeCount = 3.0; LogProcessCycleTimeMax = 0.03604888916015625; LogProcessCycleTimeMin = 0.0001618862152099609; LogProcessCycleTimeStd = 0.01988049376641019; LogProcessCycleTimeSum = 0.06914162635803223; SleepCycleTimeAvg = 4.765806039174397; SleepCycleTimeCount = 3.0; SleepCycleTimeMax = 5.005082130432129; SleepCycleTimeMin = 4.28971004486084; SleepCycleTimeStd = 0.4123130546880425; SleepCycleTimeSum = 14.29741811752319; SubmitCycleTimeAvg = 0.002572536468505859; SubmitCycleTimeCount = 4.0; SubmitCycleTimeMax = 0.01025509834289551; SubmitCycleTimeMin = 1.096725463867188E-05; SubmitCycleTimeStd = 0.005121708016146517; SubmitCycleTimeSum = 0.01029014587402344; ]
+02/19/24 14:25:52 PRE Script of Job pegasus-plan_gw-main failed with status 1
+02/19/24 14:25:57 DAG status: 2 (DAG_STATUS_NODE_FAILED)
+02/19/24 14:25:57 Of 4 nodes total:
+02/19/24 14:25:57  Done     Pre   Queued    Post   Ready   Un-Ready   Failed
+02/19/24 14:25:57   ===     ===      ===     ===     ===        ===      ===
+02/19/24 14:25:57     1       0        0       0       0          2        1
+02/19/24 14:25:57 0 job proc(s) currently held
+02/19/24 14:25:57 DAGMan Runtime Statistics: [ EventCycleTimeAvg = 0.01610455513000488; EventCycleTimeCount = 5.0; EventCycleTimeMax = 0.03624892234802246; EventCycleTimeMin = 2.884864807128906E-05; EventCycleTimeStd = 0.01749220761826681; EventCycleTimeSum = 0.08052277565002441; LogProcessCycleTimeAvg = 0.02304720878601074; LogProcessCycleTimeCount = 3.0; LogProcessCycleTimeMax = 0.03604888916015625; LogProcessCycleTimeMin = 0.0001618862152099609; LogProcessCycleTimeStd = 0.01988049376641019; LogProcessCycleTimeSum = 0.06914162635803223; SleepCycleTimeAvg = 4.871793842315673; SleepCycleTimeCount = 5.0; SleepCycleTimeMax = 5.058408975601196; SleepCycleTimeMin = 4.28971004486084; SleepCycleTimeStd = 0.3262598393122371; SleepCycleTimeSum = 24.35896921157837; SubmitCycleTimeAvg = 0.001719315846761068; SubmitCycleTimeCount = 6.0; SubmitCycleTimeMax = 0.01025509834289551; SubmitCycleTimeMin = 1.096725463867188E-05; SubmitCycleTimeStd = 0.004181662491866476; SubmitCycleTimeSum = 0.01031589508056641; ]
+02/19/24 14:25:57 ERROR: the following job(s) failed:
+02/19/24 14:25:57 ---------------------- Job ----------------------
+02/19/24 14:25:57       Node Name: pegasus-plan_gw-main
+02/19/24 14:25:57            Noop: false
+02/19/24 14:25:57          NodeID: 1
+02/19/24 14:25:57     Node Status: STATUS_ERROR    
+02/19/24 14:25:57 Node return val: 1
+02/19/24 14:25:57           Error: PRE Script failed with status 1
+02/19/24 14:25:57 Job Submit File: ./pegasus-plan_gw-main.sub
+02/19/24 14:25:57      PRE Script: ./pegasus-plan_gw-main.pre.sh  -Dpegasus.log.*=/home/kkacanja/pycbc/examples/search/output_shared/pycbc-tmp_zmx8la4l/work/pegasus-plan_gw-main.pre.log -Dpegasus.workflow.root.uuid=1a2ba953-26fe-43a8-9e7b-a5b23794529b -Dpegasus.dir.storage.mapper.replica.file=gw-main.map --conf /home/kkacanja/pycbc/examples/search/output_shared/pycbc-tmp_zmx8la4l/work/pegasus.5949411531374299041.properties --dir /home/kkacanja/pycbc/examples/search/output_shared/pycbc-tmp_zmx8la4l --relative-dir work/./gw-main.dax_gw-main --relative-submit-dir work/././gw-main.dax_gw-main --basename gw-main --sites condorpool_shared,condorpool_symlink,condorpool_copy,local --staging-site condorpool_shared=condorpool_shared,condorpool_symlink=local,condorpool_copy=local,local=local, --cache /home/kkacanja/pycbc/examples/search/output_shared/pycbc-tmp_zmx8la4l/work/./pegasus-plan_gw-main.input.cache --inherited-rc-files /home/kkacanja/pycbc/examples/search/output_shared/pycbc-tmp_zmx8la4l/work/gw.dax-0.replica.store --cluster label,horizontal --output-sites local --cleanup inplace --verbose  --verbose  --verbose  --deferred  /home/kkacanja/pycbc/examples/search/output_shared/gw-main.dax
+02/19/24 14:25:57  HTCondor Job ID: [not yet submitted]
+02/19/24 14:25:57 PARENTS: create_dir_gw.dax_0_local WAITING: 0 CHILDREN: pegasus-plan_gw-finalization cleanup_gw.dax_0_local
+02/19/24 14:25:57 ---------------------------------------	<END>
+02/19/24 14:25:57 Aborting DAG...
+02/19/24 14:25:57 Writing Rescue DAG to gw.dax-0.dag.rescue001...
+02/19/24 14:25:57 Removing submitted jobs...
+02/19/24 14:25:57 Removing any/all submitted HTCondor jobs...
+02/19/24 14:25:57 Running: /usr/bin/condor_rm -const DAGManJobId==37796
+02/19/24 14:25:57 Note: 0 total job deferrals because of -MaxJobs limit (50000)
+02/19/24 14:25:57 Note: 0 total job deferrals because of -MaxIdle limit (2500)
+02/19/24 14:25:57 Note: 0 total job deferrals because of node category throttles
+02/19/24 14:25:57 Note: 0 total PRE script deferrals because of -MaxPre limit (1) or DEFER
+02/19/24 14:25:57 Note: 0 total POST script deferrals because of -MaxPost limit (20) or DEFER
+02/19/24 14:25:57 Note: 0 total HOLD script deferrals because of -MaxHold limit (20) or DEFER
+02/19/24 14:25:57 DAG status: 2 (DAG_STATUS_NODE_FAILED)
+02/19/24 14:25:57 Of 4 nodes total:
+02/19/24 14:25:57  Done     Pre   Queued    Post   Ready   Un-Ready   Failed
+02/19/24 14:25:57   ===     ===      ===     ===     ===        ===      ===
+02/19/24 14:25:57     1       0        0       0       0          2        1
+02/19/24 14:25:57 0 job proc(s) currently held
+02/19/24 14:25:57 DAGMan Runtime Statistics: [ EventCycleTimeAvg = 0.01610455513000488; EventCycleTimeCount = 5.0; EventCycleTimeMax = 0.03624892234802246; EventCycleTimeMin = 2.884864807128906E-05; EventCycleTimeStd = 0.01749220761826681; EventCycleTimeSum = 0.08052277565002441; LogProcessCycleTimeAvg = 0.02304720878601074; LogProcessCycleTimeCount = 3.0; LogProcessCycleTimeMax = 0.03604888916015625; LogProcessCycleTimeMin = 0.0001618862152099609; LogProcessCycleTimeStd = 0.01988049376641019; LogProcessCycleTimeSum = 0.06914162635803223; SleepCycleTimeAvg = 4.871793842315673; SleepCycleTimeCount = 5.0; SleepCycleTimeMax = 5.058408975601196; SleepCycleTimeMin = 4.28971004486084; SleepCycleTimeStd = 0.3262598393122371; SleepCycleTimeSum = 24.35896921157837; SubmitCycleTimeAvg = 0.001719315846761068; SubmitCycleTimeCount = 6.0; SubmitCycleTimeMax = 0.01025509834289551; SubmitCycleTimeMin = 1.096725463867188E-05; SubmitCycleTimeStd = 0.004181662491866476; SubmitCycleTimeSum = 0.01031589508056641; ]
+02/19/24 14:25:57 Wrote metrics file gw.dax-0.dag.metrics.
+02/19/24 14:25:57 DAGMan Runtime Statistics: [ EventCycleTimeAvg = 0.01610455513000488; EventCycleTimeCount = 5.0; EventCycleTimeMax = 0.03624892234802246; EventCycleTimeMin = 2.884864807128906E-05; EventCycleTimeStd = 0.01749220761826681; EventCycleTimeSum = 0.08052277565002441; LogProcessCycleTimeAvg = 0.02304720878601074; LogProcessCycleTimeCount = 3.0; LogProcessCycleTimeMax = 0.03604888916015625; LogProcessCycleTimeMin = 0.0001618862152099609; LogProcessCycleTimeStd = 0.01988049376641019; LogProcessCycleTimeSum = 0.06914162635803223; SleepCycleTimeAvg = 4.871793842315673; SleepCycleTimeCount = 5.0; SleepCycleTimeMax = 5.058408975601196; SleepCycleTimeMin = 4.28971004486084; SleepCycleTimeStd = 0.3262598393122371; SleepCycleTimeSum = 24.35896921157837; SubmitCycleTimeAvg = 0.001719315846761068; SubmitCycleTimeCount = 6.0; SubmitCycleTimeMax = 0.01025509834289551; SubmitCycleTimeMin = 1.096725463867188E-05; SubmitCycleTimeStd = 0.004181662491866476; SubmitCycleTimeSum = 0.01031589508056641; ]
+02/19/24 14:25:57 **** condor_scheduniv_exec.37796.0 (condor_DAGMAN) pid 561319 EXITING WITH STATUS 1

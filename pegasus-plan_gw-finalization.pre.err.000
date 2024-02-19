@@ -1,0 +1,334 @@
+2024-02-19 14:43:48: PegasusLite: version 5.0.6
+2024-02-19 14:43:48: Executing on host sugwg-login.syr.edu IP=128.230.21.204
+
+########################[Pegasus Lite] Setting up workdir ########################
+2024-02-19 14:43:48: Checking /tmp for potential use as work space... 
+2024-02-19 14:43:48:   Workdir is /tmp/pegasus.XABw9yIiz - 29G available
+2024-02-19 14:43:48: Changing cwd to /tmp/pegasus.XABw9yIiz
+
+###################### Staging in input data and executables ######################
+2024-02-19 14:43:48,494    INFO:  Reading URL pairs from stdin
+2024-02-19 14:43:48,495    INFO:  1 transfers loaded
+2024-02-19 14:43:48,495    INFO:  PATH=/home/kkacanja/jre1.8.0_391/bin:/home/kkacanja/pycbc:/home/kkacanja/git/git-2.33.0:/home/kkacanja/pegasus-5.0.6/bin:/home/kkacanja/miniconda3/envs/astro/bin:/home/kkacanja/miniconda3/bin:/home/kkacanja/miniconda3/condabin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+2024-02-19 14:43:48,495    INFO:  LD_LIBRARY_PATH=
+2024-02-19 14:43:48,510    INFO:  --------------------------------------------------------------------------------
+2024-02-19 14:43:48,510    INFO:  Starting transfers - attempt 1
+2024-02-19 14:43:50,513    INFO:  ln -f -s '/home/kkacanja/pycbc/examples/search/output_shared/gw-finalization.map' '/tmp/pegasus.XABw9yIiz/gw-finalization.map'
+2024-02-19 14:43:50,520    INFO:  --------------------------------------------------------------------------------
+2024-02-19 14:43:50,522    INFO:  Stats: Total 1 transfers, 0.0 B transferred in 2 seconds. Rate: 0.0 B/s (0.0 b/s)
+2024-02-19 14:43:50,522    INFO:         Between sites local->local : 1 transfers, 0.0 B transferred in 2 seconds. Rate: 0.0 B/s (0.0 b/s)
+2024-02-19 14:43:50,522    INFO:  All transfers completed successfully.
+Can't open ./.chirp.config file
+cannot chirp_connect to condor_starter
+	Error: 2 (No such file or directory)
+2024-02-19 14:43:50: condor_chirp test failed - disabling chirping
+
+######################[Pegasus Lite] Executing the user task ######################
+- invocation: True
+  version: 3.0
+  start: 2024-02-19T14:43:50.556-05:00
+  duration: 0.949
+  transformation: "pegasus-plan_gw-finalization.pre.sh"
+  derivation: "gw-finalization"
+  resource: "local"
+  wf-label: "gw.dax"
+  wf-stamp: "2024-02-19T14:25:21-05:00"
+  interface: ens160
+  hostaddr: 128.230.21.204
+  hostname: sugwg-login.syr.edu
+  pid: 572369
+  uid: 1470
+  user: kkacanja
+  gid: 502
+  group: condoruser
+  umask: 0o0022
+  mainjob:
+    start: 2024-02-19T14:43:50.842-05:00
+    duration: 0.663
+    pid: 572370
+    usage:
+      utime: 0.559
+      stime: 0.146
+      maxrss: 61264
+      minflt: 28571
+      majflt: 0
+      nswap: 0
+      inblock: 0
+      outblock: 80
+      msgsnd: 0
+      msgrcv: 0
+      nsignals: 0
+      nvcsw: 3071
+      nivcsw: 27
+    status:
+      raw: 256
+      regular_exitcode: 1
+    executable:
+      file_name: /home/kkacanja/pegasus-5.0.6/bin/pegasus-plan
+      mode: 0o100755
+      size: 897
+      inode: 739069
+      nlink: 1
+      blksize: 1048576
+      blocks: 9
+      mtime: 2023-05-08T14:42:49-04:00
+      atime: 2023-12-18T23:19:12-05:00
+      ctime: 2023-12-18T23:19:12-05:00
+      uid: 1470
+      user: kkacanja
+      gid: 502
+      group: condoruser
+    argument_vector:
+    procs:
+  jobids:
+  cwd: /tmp/pegasus.XABw9yIiz
+  usage:
+    utime: 0.055
+    stime: 0.227
+    maxrss: 2680
+    minflt: 127
+    majflt: 0
+    nswap: 0
+    inblock: 0
+    outblock: 0
+    msgsnd: 0
+    msgrcv: 0
+    nsignals: 0
+    nvcsw: 6
+    nivcsw: 28
+  machine:
+    page-size: 4096
+    uname_system: linux
+    uname_nodename: sugwg-login.ad.syr.edu
+    uname_release: 5.4.0-65-generic
+    uname_machine: x86_64
+    ram_total: 32860100
+    ram_free: 5668880
+    ram_shared: 460
+    ram_buffer: 237728
+    swap_total: 4001788
+    swap_free: 3889404
+    cpu_count: 24
+    cpu_speed: 2394
+    cpu_vendor: GenuineIntel
+    cpu_model: Intel(R) Xeon(R) Platinum 8260 CPU @ 2.40GHz
+    load_min1: 0.21
+    load_min5: 0.28
+    load_min15: 0.44
+    procs_total: 4912
+    procs_running: 1
+    procs_sleeping: 4732
+    procs_other: 179
+    procs_vmsize: 78226828
+    procs_rss: 49733784
+    task_total: 4941
+    task_running: 1
+    task_sleeping: 4761
+    task_other: 179
+  files:
+    stdin:
+      file_name: /dev/null
+      mode: 0o20666
+      size: 0
+      inode: 6
+      nlink: 1
+      blksize: 4096
+      blocks: 0
+      mtime: 2024-02-14T09:54:25-05:00
+      atime: 2024-02-14T09:54:25-05:00
+      ctime: 2024-02-14T09:54:25-05:00
+      uid: 0
+      user: root
+      gid: 0
+      group: root
+    stdout:
+      temporary_name: /tmp/ks.out.8BDuc4
+      descriptor: 3
+      mode: 0o100600
+      size: 77
+      inode: 1449911
+      nlink: 1
+      blksize: 4096
+      blocks: 8
+      mtime: 2024-02-19T14:43:51-05:00
+      atime: 2024-02-19T14:43:50-05:00
+      ctime: 2024-02-19T14:43:51-05:00
+      uid: 1470
+      user: kkacanja
+      gid: 502
+      group: condoruser
+      data_truncated: false
+      data: |
+        ERROR while logging metrics The metrics file location is not yet initialized
+        
+    stderr:
+      temporary_name: /tmp/ks.err.ktTMP3
+      descriptor: 4
+      mode: 0o100600
+      size: 241
+      inode: 1449912
+      nlink: 1
+      blksize: 4096
+      blocks: 8
+      mtime: 2024-02-19T14:43:51-05:00
+      atime: 2024-02-19T14:43:50-05:00
+      ctime: 2024-02-19T14:43:51-05:00
+      uid: 1470
+      user: kkacanja
+      gid: 502
+      group: condoruser
+      data_truncated: false
+      data: |
+        2024.02.19 14:43:51.478 EST: [FATAL ERROR]  
+         [1] java.lang.RuntimeException: File does not exist or with read bit set to false /tmp/pegasus.XABw9yIiz/workflow.yml at edu.isi.pegasus.common.util.FileDetector.isTypeXML(FileDetector.java:92) 
+        
+    metadata:
+      temporary_name: /tmp/ks.meta.IvOY73
+      descriptor: 5
+      mode: 0o100600
+      size: 0
+      inode: 1449913
+      nlink: 1
+      blksize: 4096
+      blocks: 0
+      mtime: 2024-02-19T14:43:50-05:00
+      atime: 2024-02-19T14:43:50-05:00
+      ctime: 2024-02-19T14:43:50-05:00
+      uid: 1470
+      user: kkacanja
+      gid: 502
+      group: condoruser
+    kickstart:
+      error: 2
+      note: ignore error - it is just a warning
+      file_name: pegasus-kickstart
+    logfile:
+      descriptor_number: 1
+      mode: 0o100644
+      size: 2069
+      inode: 9013719
+      nlink: 1
+      blksize: 1048576
+      blocks: 1
+      mtime: 2024-02-19T14:43:50-05:00
+      atime: 2024-02-19T14:43:48-05:00
+      ctime: 2024-02-19T14:43:50-05:00
+      uid: 1470
+      user: kkacanja
+      gid: 502
+      group: condoruser
+  environment:
+    "CONDA_BACKUP_LALBURST_DATADIR": "empty"
+    "CONDA_DEFAULT_ENV": "astro"
+    "CONDA_EXE": "/home/kkacanja/miniconda3/bin/conda"
+    "CONDA_PREFIX": "/home/kkacanja/miniconda3/envs/astro"
+    "CONDA_PREFIX_1": "/home/kkacanja/miniconda3"
+    "CONDA_PROMPT_MODIFIER": "(astro) "
+    "CONDA_PYTHON_EXE": "/home/kkacanja/miniconda3/bin/python"
+    "CONDA_SHLVL": "2"
+    "DBUS_SESSION_BUS_ADDRESS": "unix:path=/run/user/1470/bus"
+    "HDF5_USE_FILE_LOCKING": "FALSE"
+    "HOME": "/home/kkacanja"
+    "KICKSTART_INTEGRITY_DATA": "/tmp/ks.integrity.spHVu2"
+    "KICKSTART_METADATA": "/tmp/ks.meta.IvOY73"
+    "KRB5CCNAME": "KEYRING:persistent:869981"
+    "LALBURST_DATADIR": "/home/kkacanja/miniconda3/envs/astro/share/lalburst"
+    "LALINFERENCE_DATADIR": "/home/kkacanja/miniconda3/envs/astro/share/lalinference"
+    "LALPULSAR_DATADIR": "/home/kkacanja/miniconda3/envs/astro/share/lalpulsar"
+    "LALSIMULATION_DATADIR": "/home/kkacanja/miniconda3/envs/astro/share/lalsimulation"
+    "LANG": "en_US.UTF-8"
+    "LOGNAME": "kkacanja"
+    "LS_COLORS": "rs=0:di=0;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=38;5;51;42:ow=34;42:st=37;44:ex=31:*.tar=01;33:*.tgz=01;31:*.arc=01;31:*.gz=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35::*.png=01;35:*.py=32:*.sh=31:*.hdf=38;5;45:*.txt=93"
+    "MOTD_SHOWN": "pam"
+    "OLDPWD": "/tmp"
+    "PATH": "/home/kkacanja/jre1.8.0_391/bin:/home/kkacanja/pycbc:/home/kkacanja/git/git-2.33.0:/home/kkacanja/pegasus-5.0.6/bin:/home/kkacanja/miniconda3/envs/astro/bin:/home/kkacanja/miniconda3/bin:/home/kkacanja/miniconda3/condabin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin"
+    "PEGASUS_HOME": "/home/kkacanja/pegasus-5.0.6"
+    "PEGASUS_MULTIPART_DIR": "/home/kkacanja/pycbc/examples/search/output_shared/pycbc-tmp_zmx8la4l/work/.pegasus.mulitpart.d"
+    "PWD": "/tmp/pegasus.XABw9yIiz"
+    "SHELL": "/bin/bash"
+    "SHLVL": "2"
+    "SSH_CLIENT": "10.1.208.13 51839 22"
+    "SSH_CONNECTION": "10.1.208.13 51839 128.230.21.204 22"
+    "SSH_TTY": "/dev/pts/1"
+    "TERM": "xterm-256color"
+    "USER": "kkacanja"
+    "XDG_RUNTIME_DIR": "/run/user/1470"
+    "XDG_SESSION_CLASS": "user"
+    "XDG_SESSION_ID": "915"
+    "XDG_SESSION_TYPE": "tty"
+    "_": "/home/kkacanja/pegasus-5.0.6/bin/pegasus-kickstart"
+    "_CE_CONDA": ""
+    "_CE_M": ""
+    "pegasus_lite_work_dir": "/tmp/pegasus.XABw9yIiz"
+    "pegasus_lite_work_dir_created": "1"
+  limits:
+    RLIMIT_CPU_soft: unlimited
+    RLIMIT_CPU_hard: unlimited
+    RLIMIT_FSIZE_soft: unlimited
+    RLIMIT_FSIZE_hard: unlimited
+    RLIMIT_DATA_soft: unlimited
+    RLIMIT_DATA_hard: unlimited
+    RLIMIT_STACK_soft: 8388608
+    RLIMIT_STACK_hard: unlimited
+    RLIMIT_CORE_soft: 0
+    RLIMIT_CORE_hard: unlimited
+    RESOURCE_5_soft: unlimited
+    RESOURCE_5_hard: unlimited
+    RLIMIT_NPROC_soft: 128010
+    RLIMIT_NPROC_hard: 128010
+    RLIMIT_NOFILE_soft: 1024
+    RLIMIT_NOFILE_hard: 1048576
+    RLIMIT_MEMLOCK_soft: 67108864
+    RLIMIT_MEMLOCK_hard: 67108864
+    RLIMIT_AS_soft: unlimited
+    RLIMIT_AS_hard: unlimited
+    RLIMIT_LOCKS_soft: unlimited
+    RLIMIT_LOCKS_hard: unlimited
+    RLIMIT_SIGPENDING_soft: 128010
+    RLIMIT_SIGPENDING_hard: 128010
+    RLIMIT_MSGQUEUE_soft: 819200
+    RLIMIT_MSGQUEUE_hard: 819200
+    RLIMIT_NICE_soft: 0
+    RLIMIT_NICE_hard: 0
+    RLIMIT_RTPRIO_soft: 0
+    RLIMIT_RTPRIO_hard: 0
+    RESOURCE_15_soft: unlimited
+    RESOURCE_15_hard: unlimited
+
+---------------pegasus-multipart
+- transfer_attempts:
+  - src_url: "file:///home/kkacanja/pycbc/examples/search/output_shared/gw-main.map"
+    src_label: "local"
+    dst_url: "symlink:///tmp/pegasus.PIt8OQqjH/gw-main.map"
+    dst_label: "local"
+    success: True
+    start: 1708370749
+    duration: 0.0
+    lfn: "gw-main.map"
+    bytes: 32166
+
+---------------pegasus-multipart
+- transfer_attempts:
+  - src_url: "file:///home/kkacanja/pycbc/examples/search/output_shared/gw-main.map"
+    src_label: "local"
+    dst_url: "symlink:///tmp/pegasus.gicoqG71w/gw-main.map"
+    dst_label: "local"
+    success: True
+    start: 1708371465
+    duration: 0.0
+    lfn: "gw-main.map"
+    bytes: 32166
+
+---------------pegasus-multipart
+- transfer_attempts:
+  - src_url: "file:///home/kkacanja/pycbc/examples/search/output_shared/gw-finalization.map"
+    src_label: "local"
+    dst_url: "symlink:///tmp/pegasus.XABw9yIiz/gw-finalization.map"
+    dst_label: "local"
+    success: True
+    start: 1708371831
+    duration: 0.0
+    lfn: "gw-finalization.map"
+2024-02-19 14:43:51: User task failed with exitcode 1
+2024-02-19 14:43:51: /tmp/pegasus.XABw9yIiz cleaned up
+PegasusLite: exitcode 1

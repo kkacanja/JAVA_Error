@@ -1,0 +1,52 @@
+2024-02-19 14:25:32,274:INFO:pegasus-monitord(58): pegasus-monitord starting - pid 561320 
+2024-02-19 14:25:32,279:INFO:pegasus-monitord(456): Final Command line options are: ['-N', 'gw.dax-0.dag.dagman.out']
+2024-02-19 14:25:32,282:INFO:Pegasus.monitoring.event_output.MultiplexEventSink(509): Multiplexed Event Sink Connection Properties  {'amqp.url': 'amqp://friend:donatedata@msgs.pegasus.isi.edu:5672/prod/workflows', 'default.url': 'sqlite:////home/kkacanja/pycbc/examples/search/output_shared/pycbc-tmp_zmx8la4l/work/gw.dax-0.stampede.db'}
+2024-02-19 14:25:32,282:INFO:Pegasus.monitoring.event_output(630): Connecting workflow event sink to amqp://friend:donatedata@msgs.pegasus.isi.edu:5672/prod/workflows
+2024-02-19 14:25:32,283:INFO:Pegasus.monitoring.event_output.AMQPEventSink(325): Encoder used <function json_encode at 0x7faa314eb670> Properties received {'url': 'amqp://friend:donatedata@msgs.pegasus.isi.edu:5672/prod/workflows'}
+2024-02-19 14:25:32,283:INFO:Pegasus.monitoring.event_output.AMQPEventSink(369): Connecting to host: msgs.pegasus.isi.edu:5672 virtual host: prod exchange: workflows with user: friend ssl: False
+2024-02-19 14:25:32,283:INFO:Pegasus.monitoring.event_output(704): output type=AMQP namespace=stampede. name=msgs.pegasus.isi.edu:5672//prod/workflows
+2024-02-19 14:25:32,284:INFO:Pegasus.monitoring.event_output(630): Connecting workflow event sink to sqlite:////home/kkacanja/pycbc/examples/search/output_shared/pycbc-tmp_zmx8la4l/work/gw.dax-0.stampede.db
+2024-02-19 14:25:32,308:INFO:pika.adapters.utils.connection_workflow(179): Pika version 1.1.0 connecting to ('128.9.46.112', 5672)
+Pegasus database was successfully created.
+2024-02-19 14:25:32,377:INFO:pika.adapters.utils.io_services_utils(345): Socket connected: <socket.socket fd=8, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('128.230.21.204', 37918), raddr=('128.9.46.112', 5672)>
+2024-02-19 14:25:32,377:INFO:pika.adapters.utils.connection_workflow(428): Streaming transport linked up: (<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x7faa30129c70>, _StreamingProtocolShim: <SelectConnection PROTOCOL transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x7faa30129c70> params=<ConnectionParameters host=msgs.pegasus.isi.edu port=5672 virtual_host=prod ssl=False>>).
+2024-02-19 14:25:32,588:INFO:pika.adapters.utils.connection_workflow(293): AMQPConnector - reporting success: <SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x7faa30129c70> params=<ConnectionParameters host=msgs.pegasus.isi.edu port=5672 virtual_host=prod ssl=False>>
+2024-02-19 14:25:32,588:INFO:pika.adapters.utils.connection_workflow(725): AMQPConnectionWorkflow - reporting success: <SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x7faa30129c70> params=<ConnectionParameters host=msgs.pegasus.isi.edu port=5672 virtual_host=prod ssl=False>>
+2024-02-19 14:25:32,589:INFO:pika.adapters.blocking_connection(452): Connection workflow succeeded: <SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x7faa30129c70> params=<ConnectionParameters host=msgs.pegasus.isi.edu port=5672 virtual_host=prod ssl=False>>
+2024-02-19 14:25:32,589:INFO:pika.adapters.blocking_connection(1247): Created channel=1
+Database version: '5.0.6' (sqlite:////home/kkacanja/pycbc/examples/search/output_shared/pycbc-tmp_zmx8la4l/work/gw.dax-0.stampede.db)
+2024-02-19 14:25:32,711:INFO:Pegasus.monitoring.event_output(704): output type=DB namespace=stampede. name=sqlite:////home/kkacanja/pycbc/examples/search/output_shared/pycbc-tmp_zmx8la4l/work/gw.dax-0.stampede.db
+2024-02-19 14:25:32,711:INFO:Pegasus.monitoring.event_output(630): Connecting workflow event sink to sqlite:////home/kkacanja/.pegasus/workflow.db
+Database version: '5.0.6' (sqlite:////home/kkacanja/.pegasus/workflow.db)
+2024-02-19 14:25:33,006:INFO:Pegasus.monitoring.event_output(704): output type=DB namespace=dashboard. name=sqlite:////home/kkacanja/.pegasus/workflow.db
+2024-02-19 14:25:33,006:INFO:pegasus-monitord(1253): monitord started in fast start mode
+2024-02-19 14:25:33,019:INFO:Pegasus.monitoring.workflow(460): cannot open state file /home/kkacanja/pycbc/examples/search/output_shared/pycbc-tmp_zmx8la4l/work/monitord.info, continuing without state...
+2024-02-19 14:25:33,020:INFO:Pegasus.monitoring.workflow(1148): creating new file /home/kkacanja/pycbc/examples/search/output_shared/pycbc-tmp_zmx8la4l/work/jobstate.log
+2024-02-19 14:25:33,020:INFO:Pegasus.monitoring.workflow(1156): Appending to existing jobstate.log replay_mode 0 previous_processed_line 0
+2024-02-19 14:25:33,021:INFO:Pegasus.monitoring.notifications(474): loading notifications from /home/kkacanja/pycbc/examples/search/output_shared/pycbc-tmp_zmx8la4l/work/gw.dax-0.notify
+2024-02-19 14:25:33,175:INFO:Pegasus.monitoring.workflow(205): Parsing DAG file /home/kkacanja/pycbc/examples/search/output_shared/pycbc-tmp_zmx8la4l/work/gw.dax-0.dag
+2024-02-19 14:25:33,176:INFO:pegasus-monitord(978): Using DAGMan version 9.7.0 90700
+2024-02-19 14:25:33,176:INFO:pegasus-monitord(955): DAGMan runs at pid 561319
+2024-02-19 14:25:33,178:INFO:pegasus-monitord(961): using dag gw.dax-0.dag
+2024-02-19 14:25:33,178:INFO:Pegasus.monitoring.workflow(811): DAGMan starting with condor id 37796.0
+2024-02-19 14:25:57,313:INFO:pegasus-monitord(931): DAGMan gw.dax-0.dag finished with exit code 1
+2024-02-19 14:25:58,337:INFO:pegasus-monitord(1433): workflow /home/kkacanja/pycbc/examples/search/output_shared/pycbc-tmp_zmx8la4l/work/gw.dax-0.dag.dagman.out ended
+2024-02-19 14:25:58,339:INFO:Pegasus.monitoring.workflow(1378): recovery file deleted: /home/kkacanja/pycbc/examples/search/output_shared/pycbc-tmp_zmx8la4l/work/monitord.recover
+2024-02-19 14:25:58,340:INFO:pegasus-monitord(1671): finishing workflow: /home/kkacanja/pycbc/examples/search/output_shared/pycbc-tmp_zmx8la4l/work/gw.dax-0.dag.dagman.out
+2024-02-19 14:25:58,340:INFO:pegasus-monitord(1725): finishing notifications...
+2024-02-19 14:25:58,340:INFO:pegasus-monitord(1733): monitord process 561320 exiting with 0
+2024-02-19 14:25:58,343:INFO:pegasus-monitord(198): DB flushing beginning
+2024-02-19 14:26:02,305:INFO:pika.adapters.blocking_connection(788): Closing connection (200): Normal shutdown
+2024-02-19 14:26:02,306:INFO:pika.channel(533): Closing channel (200): 'Normal shutdown' on <Channel number=1 OPEN conn=<SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x7faa30129c70> params=<ConnectionParameters host=msgs.pegasus.isi.edu port=5672 virtual_host=prod ssl=False>>>
+2024-02-19 14:26:02,375:INFO:pika.channel(1119): Received <Channel.CloseOk> on <Channel number=1 CLOSING conn=<SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x7faa30129c70> params=<ConnectionParameters host=msgs.pegasus.isi.edu port=5672 virtual_host=prod ssl=False>>>
+2024-02-19 14:26:02,376:INFO:pika.connection(1295): Closing connection (200): 'Normal shutdown'
+2024-02-19 14:26:02,445:INFO:pika.adapters.utils.io_services_utils(731): Aborting transport connection: state=1; <socket.socket fd=8, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('128.230.21.204', 37918), raddr=('128.9.46.112', 5672)>
+2024-02-19 14:26:02,446:INFO:pika.adapters.utils.io_services_utils(904): _AsyncTransportBase._initate_abort(): Initiating abrupt asynchronous transport shutdown: state=1; error=None; <socket.socket fd=8, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('128.230.21.204', 37918), raddr=('128.9.46.112', 5672)>
+2024-02-19 14:26:02,446:INFO:pika.adapters.utils.io_services_utils(869): Deactivating transport: state=1; <socket.socket fd=8, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('128.230.21.204', 37918), raddr=('128.9.46.112', 5672)>
+2024-02-19 14:26:02,446:INFO:pika.connection(1996): AMQP stack terminated, failed to connect, or aborted: opened=True, error-arg=None; pending-error=ConnectionClosedByClient: (200) 'Normal shutdown'
+2024-02-19 14:26:02,446:INFO:pika.connection(2065): Stack terminated due to ConnectionClosedByClient: (200) 'Normal shutdown'
+2024-02-19 14:26:02,446:INFO:pika.adapters.utils.io_services_utils(882): Closing transport socket and unlinking: state=3; <socket.socket fd=8, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('128.230.21.204', 37918), raddr=('128.9.46.112', 5672)>
+2024-02-19 14:26:02,446:INFO:pika.adapters.blocking_connection(524): User-initiated close: result=BlockingConnection__OnClosedArgs(connection=<SelectConnection CLOSED transport=None params=<ConnectionParameters host=msgs.pegasus.isi.edu port=5672 virtual_host=prod ssl=False>>, error=ConnectionClosedByClient: (200) 'Normal shutdown')
+2024-02-19 14:26:02,447:INFO:Pegasus.db.workflow_loader.WorkflowLoader(1244): Executing final flush
+2024-02-19 14:26:02,479:INFO:Pegasus.db.dashboard_loader.DashboardLoader(397): Executing final flush
+2024-02-19 14:26:02,480:INFO:pegasus-monitord(214): DB flushing ended

@@ -1,0 +1,14 @@
+1708370733 INTERNAL *** MONITORD_STARTED ***
+1708370731 INTERNAL *** DAGMAN_STARTED 37796.0 ***
+1708370732 create_dir_gw.dax_0_local SUBMIT 37803.0 local - 1
+1708370736 create_dir_gw.dax_0_local EXECUTE 37803.0 local - 1
+1708370739 create_dir_gw.dax_0_local JOB_TERMINATED 37803.0 local - 1
+1708370742 create_dir_gw.dax_0_local JOB_SUCCESS 0 local - 1
+1708370742 create_dir_gw.dax_0_local POST_SCRIPT_STARTED 37803.0 local - 1
+1708370743 create_dir_gw.dax_0_local POST_SCRIPT_TERMINATED 37803.0 local - 1
+1708370747 create_dir_gw.dax_0_local POST_SCRIPT_SUCCESS 0 local - 1
+1708370747 pegasus-plan_gw-main PRE_SCRIPT_STARTED - local - 2
+1708370752 pegasus-plan_gw-main PRE_SCRIPT_TERMINATED - local - 2
+1708370752 pegasus-plan_gw-main PRE_SCRIPT_FAILURE 1 local - 2
+1708370757 INTERNAL *** DAGMAN_FINISHED 1 ***
+1708370758 INTERNAL *** MONITORD_FINISHED 0 ***

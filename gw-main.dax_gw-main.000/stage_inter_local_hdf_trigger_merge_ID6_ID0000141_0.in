@@ -1,0 +1,12 @@
+[
+ { "type": "transfer",
+   "linkage": "output",
+   "lfn": "118674/L1-INSPIRAL_BBH_INJECTIONS-1186740108-3384.hdf",
+   "id": 1,
+   "src_urls": [
+     { "site_label": "condorpool_shared", "url": "file:///home/kkacanja/pycbc/examples/search/output_shared/pycbc-tmp_2k6tnxz7/cpool-site-scratch/work/./gw-main.dax_gw-main/./118674/L1-INSPIRAL_BBH_INJECTIONS-1186740108-3384.hdf" }
+   ],
+   "dest_urls": [
+     { "site_label": "local", "url": "file:///home/kkacanja/pycbc/examples/search/output_shared/local-site-scratch/work/./gw-main.dax_gw-main/./118674/L1-INSPIRAL_BBH_INJECTIONS-1186740108-3384.hdf" }
+   ] }
+]

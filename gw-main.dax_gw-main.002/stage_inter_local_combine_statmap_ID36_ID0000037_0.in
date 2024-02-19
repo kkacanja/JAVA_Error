@@ -1,0 +1,78 @@
+[
+ { "type": "transfer",
+   "linkage": "output",
+   "lfn": "L1V1-EXCLUDE_ZEROLAG_FULL_DATA_2DET-1186740100-3400.hdf",
+   "id": 1,
+   "src_urls": [
+     { "site_label": "local", "url": "file:///home/kkacanja/pycbc/examples/search/output_shared/local-site-scratch/work/./gw-main.dax_gw-main/./L1V1-EXCLUDE_ZEROLAG_FULL_DATA_2DET-1186740100-3400.hdf" }
+   ],
+   "dest_urls": [
+     { "site_label": "condorpool_shared", "url": "file:///home/kkacanja/pycbc/examples/search/output_shared/pycbc-tmp_2k6tnxz7/cpool-site-scratch/work/./gw-main.dax_gw-main/./L1V1-EXCLUDE_ZEROLAG_FULL_DATA_2DET-1186740100-3400.hdf" }
+   ] }
+ ,
+ { "type": "transfer",
+   "linkage": "output",
+   "lfn": "H1L1V1-EXCLUDE_ZEROLAG_FULL_DATA_3DET-1186740100-3400.hdf",
+   "id": 2,
+   "src_urls": [
+     { "site_label": "local", "url": "file:///home/kkacanja/pycbc/examples/search/output_shared/local-site-scratch/work/./gw-main.dax_gw-main/./H1L1V1-EXCLUDE_ZEROLAG_FULL_DATA_3DET-1186740100-3400.hdf" }
+   ],
+   "dest_urls": [
+     { "site_label": "condorpool_shared", "url": "file:///home/kkacanja/pycbc/examples/search/output_shared/pycbc-tmp_2k6tnxz7/cpool-site-scratch/work/./gw-main.dax_gw-main/./H1L1V1-EXCLUDE_ZEROLAG_FULL_DATA_3DET-1186740100-3400.hdf" }
+   ] }
+ ,
+ { "type": "transfer",
+   "linkage": "output",
+   "lfn": "V1-EXCLUDE_ZEROLAG_FULL_DATA_1DET-1186740100-3400.hdf",
+   "id": 3,
+   "src_urls": [
+     { "site_label": "local", "url": "file:///home/kkacanja/pycbc/examples/search/output_shared/local-site-scratch/work/./gw-main.dax_gw-main/./V1-EXCLUDE_ZEROLAG_FULL_DATA_1DET-1186740100-3400.hdf" }
+   ],
+   "dest_urls": [
+     { "site_label": "condorpool_shared", "url": "file:///home/kkacanja/pycbc/examples/search/output_shared/pycbc-tmp_2k6tnxz7/cpool-site-scratch/work/./gw-main.dax_gw-main/./V1-EXCLUDE_ZEROLAG_FULL_DATA_1DET-1186740100-3400.hdf" }
+   ] }
+ ,
+ { "type": "transfer",
+   "linkage": "output",
+   "lfn": "H1V1-EXCLUDE_ZEROLAG_FULL_DATA_2DET-1186740100-3400.hdf",
+   "id": 4,
+   "src_urls": [
+     { "site_label": "local", "url": "file:///home/kkacanja/pycbc/examples/search/output_shared/local-site-scratch/work/./gw-main.dax_gw-main/./H1V1-EXCLUDE_ZEROLAG_FULL_DATA_2DET-1186740100-3400.hdf" }
+   ],
+   "dest_urls": [
+     { "site_label": "condorpool_shared", "url": "file:///home/kkacanja/pycbc/examples/search/output_shared/pycbc-tmp_2k6tnxz7/cpool-site-scratch/work/./gw-main.dax_gw-main/./H1V1-EXCLUDE_ZEROLAG_FULL_DATA_2DET-1186740100-3400.hdf" }
+   ] }
+ ,
+ { "type": "transfer",
+   "linkage": "output",
+   "lfn": "H1L1-EXCLUDE_ZEROLAG_FULL_DATA_2DET-1186740100-3400.hdf",
+   "id": 5,
+   "src_urls": [
+     { "site_label": "local", "url": "file:///home/kkacanja/pycbc/examples/search/output_shared/local-site-scratch/work/./gw-main.dax_gw-main/./H1L1-EXCLUDE_ZEROLAG_FULL_DATA_2DET-1186740100-3400.hdf" }
+   ],
+   "dest_urls": [
+     { "site_label": "condorpool_shared", "url": "file:///home/kkacanja/pycbc/examples/search/output_shared/pycbc-tmp_2k6tnxz7/cpool-site-scratch/work/./gw-main.dax_gw-main/./H1L1-EXCLUDE_ZEROLAG_FULL_DATA_2DET-1186740100-3400.hdf" }
+   ] }
+ ,
+ { "type": "transfer",
+   "linkage": "output",
+   "lfn": "L1-EXCLUDE_ZEROLAG_FULL_DATA_1DET-1186740100-3400.hdf",
+   "id": 6,
+   "src_urls": [
+     { "site_label": "local", "url": "file:///home/kkacanja/pycbc/examples/search/output_shared/local-site-scratch/work/./gw-main.dax_gw-main/./L1-EXCLUDE_ZEROLAG_FULL_DATA_1DET-1186740100-3400.hdf" }
+   ],
+   "dest_urls": [
+     { "site_label": "condorpool_shared", "url": "file:///home/kkacanja/pycbc/examples/search/output_shared/pycbc-tmp_2k6tnxz7/cpool-site-scratch/work/./gw-main.dax_gw-main/./L1-EXCLUDE_ZEROLAG_FULL_DATA_1DET-1186740100-3400.hdf" }
+   ] }
+ ,
+ { "type": "transfer",
+   "linkage": "output",
+   "lfn": "H1-EXCLUDE_ZEROLAG_FULL_DATA_1DET-1186740100-3400.hdf",
+   "id": 7,
+   "src_urls": [
+     { "site_label": "local", "url": "file:///home/kkacanja/pycbc/examples/search/output_shared/local-site-scratch/work/./gw-main.dax_gw-main/./H1-EXCLUDE_ZEROLAG_FULL_DATA_1DET-1186740100-3400.hdf" }
+   ],
+   "dest_urls": [
+     { "site_label": "condorpool_shared", "url": "file:///home/kkacanja/pycbc/examples/search/output_shared/pycbc-tmp_2k6tnxz7/cpool-site-scratch/work/./gw-main.dax_gw-main/./H1-EXCLUDE_ZEROLAG_FULL_DATA_1DET-1186740100-3400.hdf" }
+   ] }
+]
