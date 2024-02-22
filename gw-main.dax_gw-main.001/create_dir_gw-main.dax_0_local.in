@@ -1,6 +1,0 @@
-[
-  {
-    "id": 1,
-    "type": "mkdir",
-    "target": { "site_label": "local", "url": "file:///home/kkacanja/pycbc/examples/search/output_shared/local-site-scratch/work/./gw-main.dax_gw-main" } }
-]
